@@ -47,8 +47,12 @@ int main()
     cout << "enter the elements";
     for (i = 0; i <= n; i++)
     {
-        cin >> n;
+        cin >> a[i];
     }
     merge_sort(a, n);
     return 0;
+    for (i = 0; i <= n; i++)
+    {
+        cout << a[i];
+    }
 }
